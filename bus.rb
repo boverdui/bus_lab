@@ -36,5 +36,5 @@ class Bus
     end
     bus_stop.empty_queue()
   end
-  
+
 end #end of class
