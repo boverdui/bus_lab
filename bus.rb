@@ -34,7 +34,7 @@ class Bus
     for queuer in bus_stop.queue()
       @passengers.push(queuer)
     end
-    bus_stop.queue.clear()
+    bus_stop.empty_queue()
   end
   
 end #end of class

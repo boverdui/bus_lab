@@ -9,4 +9,8 @@ class BusStop
   def add_to_queue(new_queuer)
     @queue.push(new_queuer)
   end
+
+  def empty_queue()
+    @queue.clear()    
+  end
 end #end of class
