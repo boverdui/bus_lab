@@ -32,7 +32,7 @@ class Bus
 
   def pick_up_from_stop(bus_stop)
     for queuer in bus_stop.queue()
-      @passengers.push(queuer)
+      pick_up(queuer)
     end
     bus_stop.empty_queue()
   end
